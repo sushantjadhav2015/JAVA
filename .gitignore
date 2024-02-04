@@ -6,7 +6,7 @@ bin-release/
 
 # Other files and folders
 .settings/
-.ArrayTest
+.idea/
 
 # Executables
 *.swf
@@ -14,14 +14,24 @@ bin-release/
 *.ipa
 *.apk
 
-# Project files, i.e. `.project`, `.actionScriptProperties`, and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
-/.metadata/
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
 
-# Eclipse specific files to ignore
-.metadata/.log
-.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
-.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
-.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
-.metadata/version.ini
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
