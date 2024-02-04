@@ -14,15 +14,30 @@ bin-release/
 *.ipa
 *.apk
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+# eclipse specific git ignore
+*.pydevproject
+.project
 .metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.metadata
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
-/.metadata/
-=======
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
 # eclipse specific git ignore
 *.pydevproject
 .project
@@ -44,27 +59,4 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
->>>>>>> basics
-=======
-# eclipse specific git ignore
-*.pydevproject
-.project
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
 
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
->>>>>>> refs/heads/basics
