@@ -1,62 +1,254 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Ignore generated files
+bin/
+gen/
 
-# Other files and folders
-.settings/
+# Ignore build output
+out/
+build/
+
+# Ignore configuration files
+*.iml
 .idea/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Ignore compiled bytecode
+*.class
 
-# eclipse specific git ignore
-*.pydevproject
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore log files and directories
+*.log
+logs/
+
+# Ignore Eclipse files
 .project
-.metadata
-bin/**
-tmp/**
-tmp/**/*
+.classpath
+.settings/
+.metadata/
+
+# Ignore IntelliJ files
+.idea/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore Node.js generated files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
 *.tmp
 *.bak
 *.swp
-*~.nib
+
+# Ignore Gradle files
+.gradle/
+
+# Ignore Maven files
+target/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore local configuration
 local.properties
-.classpath
-.settings/
-.loadpath
-.metadata
-.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 
-# External tool builders
-.externalToolBuilders/
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
 
-# Locally stored "Eclipse launch configurations"
-*.launch
+# Ignore sensitive or private information
+secrets.txt
+passwords.txt
 
-# eclipse specific git ignore
-*.pydevproject
-.project
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore compiled Java files
+*.class
+*.jar
+
+# Ignore compiled C++ files
+*.o
+*.out
+
+# Ignore compiled Ruby files
+*.rbc
+*.gem
+
+# Ignore compiled PHP files
+*.php5
+*.php7
+*.phtml
+
+# Ignore compiled Swift files
+*.swiftmodule
+*.swiftdoc
+*.hmap
+
+# Ignore compiled Kotlin files
+*.kotlin_module
+
+# Ignore compiled Dart files
+*.dart.js
+*.dart.js.map
+
+# Ignore compiled Go files
+*.exe
+*.test
+*.prof
+*.cprof
+
+# Ignore compiled Rust files
+target/
+
+# Ignore compiled Haskell files
+*.hi
+*.o
+
+# Ignore compiled Erlang files
+*.beam
+
+# Ignore compiled Elixir files
+*.beam
+
+# Ignore compiled Clojure files
+*.class
+
+# Ignore compiled Scala files
+*.class
+
+# Ignore compiled Groovy files
+target/
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore compiled CoffeeScript files
+*.js
+
+# Ignore compiled Less files
+*.css
+
+# Ignore compiled Sass files
+*.css
+
+# Ignore compiled Stylus files
+*.css
+
+# Ignore compiled Dart files
+*.dart.js
+*.dart.js.map
+
+# Ignore compiled JSON files
+*.json
+
+# Ignore compiled XML files
+*.xml
+
+# Ignore compiled HTML files
+*.html
+*.htm
+
+# Ignore compiled CSS files
+*.css
+
+# Ignore compiled SCSS files
+*.css
+
+# Ignore compiled LESS files
+*.css
+
+# Ignore compiled SASS files
+*.css
+
+# Ignore compiled Stylus files
+*.css
+
+# Ignore compiled Markdown files
+*.html
+
+# Ignore compiled SVG files
+*.svg
+
+# Ignore compiled PDF files
+*.pdf
+
+# Ignore compiled image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ico
+
+# Ignore compiled video files
+*.mp4
+*.avi
+*.mkv
+
+# Ignore compiled audio files
+*.mp3
+*.wav
+
+# Ignore compiled font files
+*.woff
+*.woff2
+
+# Ignore compiled archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore compiled executable files
+*.exe
+*.dll
+*.com
+*.bat
+*.sh
+*.cmd
+
+# Ignore compiled binary files
+*.bin
+*.obj
+*.a
+*.lib
+
+# Ignore compiled backup files
 *.bak
-*.swp
-*~.nib
-local.properties
-.classpath
+*.backup
+
+# Ignore compiled project-specific files
+.project
 .settings/
-.loadpath
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
+.gradle/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
