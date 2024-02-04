@@ -6,6 +6,7 @@ bin-release/
 
 # Other files and folders
 .settings/
+.ArrayTest
 
 # Executables
 *.swf
@@ -18,12 +19,9 @@ bin-release/
 # information for Eclipse / Flash Builder.
 /.metadata/
 
-# Eclipse specific files
-.metadata/
-.classpath
-.project
-.settings/
-
-# Flash Builder specific files
-.actionScriptProperties
-.flexProperties
+# Eclipse specific files to ignore
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+.metadata/version.ini
