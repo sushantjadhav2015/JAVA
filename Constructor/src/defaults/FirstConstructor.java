@@ -3,7 +3,7 @@ package defaults;
 public class FirstConstructor {
 
 	public static void main(String[] args) {
-		FirstConstructor obj = new FirstConstructor();
+		FirstConstructor obj  = new FirstConstructor();
 
 	}
 	
