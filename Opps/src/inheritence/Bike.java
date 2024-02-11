@@ -10,6 +10,9 @@ public class Bike extends Vehicle{
 	private void bikeData() {
 		this.brand = "KTM";
 		this.resNum = 2838;
+		this.color = "orange";
+		this.engineCapa = "200 cc";
 		this.dataOfVehicle();
+		System.out.println("Bike color : "+this.color);
 	}
 }

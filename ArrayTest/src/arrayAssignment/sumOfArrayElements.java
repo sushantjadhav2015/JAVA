@@ -38,6 +38,6 @@ public class sumOfArrayElements {
 			sumArray[i] = arr1[i] + arr2[i]; 
 		}
 		
-		System.out.println("Sum of two array elemets : "+Arrays.toString(sumArray));
+		System.out.println("Sum of two array elements : "+Arrays.toString(sumArray));
 	}
 }
